@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+}
+.marg-top-1em {
+  margin-top: 1em !important;
+}
+
+.box {
+  width: 400px;
+  font-family: "Titillium Web", sans-serif;
+  display: flexbox;
+  font-weight: 200;
+  margin: 0 auto;
+}
+.area {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
+p {
+  font-weight: 400;
+}
+span{
+  font-weight:bold;
+}

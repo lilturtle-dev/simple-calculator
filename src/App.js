@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Circle from "./Circle";
+import Triangle from "./Triangle";
+import "./styles.css";
+import Switch from "@mui/material/Switch";
 
-function App() {
+export default function App() {
+  const [switchFormula, setSwitchFormula] = useState(false);
+
+  const switchHandler = () => {
+    setSwitchFormula(!switchFormula);
+  };
+  //      {switchFormula ? 'Triangle' : 'Circle' }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Geometric calculator</h1>
+      <Switch defaultChecked onClick={() => switchHandler()} />
+      Switch
+      {switchFormula ? (
+        <div>
+          <Circle />
+        </div>
+      ) : (
+        <Triangle />
+      )}
     </div>
   );
 }
-
-export default App;
