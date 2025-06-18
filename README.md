@@ -1,11 +1,20 @@
 # Geometric Calculator
 
-A simple React application for calculating the area and perimeter of geometric shapes (Circle and Triangle). The app uses Material UI (MUI) for its interface and allows you to switch between different shape calculators.
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Material-UI](https://img.shields.io/badge/Material--UI-5.14.20-blue.svg)](https://mui.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+A simple React application for calculating geometric properties. Features include circle diameter calculator, triangle area calculator using Heron's formula, modern Material UI interface, and easy switching between shape calculators. Built with React 18 and Material UI (MUI) v5.
+
+## Topics
+`react` `calculator` `geometry` `mathematics` `material-ui` `heron-formula` `triangle-area` `circle-diameter`
 
 ## Features
 - Calculate area and perimeter for circles and triangles
 - Modern UI with Material UI (MUI)
 - Easy switching between shape calculators
+- Real-time calculations
+- Responsive design
 
 ## Getting Started
 
