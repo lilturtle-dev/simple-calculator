@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       <h1>Geometric calculator</h1>
       <Switch defaultChecked onClick={() => switchHandler()} />
-      Switch
+      {switchFormula ? 'Circle' : 'Triangle'}
       {switchFormula ? (
         <div>
           <Circle />

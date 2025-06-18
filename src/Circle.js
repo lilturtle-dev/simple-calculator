@@ -18,7 +18,7 @@ export default function Circle() {
         placeholder="Please type a radius"
       />
       <p>Circle diameter is</p>
-      <Typography>{result || "Unknown Please type a radius"}</Typography>
+      <Typography>{result || "To get result please fill all required fields"}</Typography>
     </div>
   );
 }
