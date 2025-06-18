@@ -1,5 +1,4 @@
-import { Button } from "@material-ui/core";
-import { TextField } from "@material-ui/core";
+import { Button, TextField } from "@mui/material";
 import { useState } from "react";
 import CalculateIcon from "@mui/icons-material/Calculate";
 
@@ -11,7 +10,7 @@ export default function Triangle() {
   });
 
   const [Sp, setSp] = useState("");
-  const [result, setArea] = useState("Unknown, please fill all sides");
+  const [result, setArea] = useState("To get result please fill all required fields");
 
   const handleChange = (e) => {
     setSide({ ...side, [e.target.name]: parseFloat(e.target.value) });
@@ -37,10 +36,8 @@ export default function Triangle() {
       }
       setSp(parseFloat(S));
     } else {
-      const S = 0;
-      const Area = 0;
-      setSp(S);
-      setArea(Area);
+      setSp(0);
+      setArea("To get result please fill all required fields");
     }
   }
 
