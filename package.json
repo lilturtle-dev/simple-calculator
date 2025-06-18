@@ -1,7 +1,7 @@
 {
   "name": "geometric-calculator",
   "version": "1.0.0",
-  "description": "A React-based geometric calculator for calculating area and perimeter of circles and triangles",
+  "description": "A simple React application for calculating geometric properties. Features include circle diameter calculator, triangle area calculator using Heron's formula, modern Material UI interface, and easy switching between shape calculators. Built with React 18 and Material UI (MUI) v5.",
   "keywords": [
     "react",
     "calculator",
